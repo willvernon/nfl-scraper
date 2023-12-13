@@ -4,7 +4,7 @@ import scrapy
 class NFLScores(scrapy.Spider):
     name = "nfl_scores"
     start_urls = [
-        # "https://www.pro-football-reference.com/years/2023/week_1.htm",
+        #  "https://www.pro-football-reference.com/years/2023/week_1.htm",
         # "https://www.pro-football-reference.com/years/2023/week_2.htm",
         # "https://www.pro-football-reference.com/years/2023/week_3.htm",
         # "https://www.pro-football-reference.com/years/2023/week_4.htm",
