@@ -1,16 +1,289 @@
-date,winning_team,winning_team_score,losing_team,losing_team_score
-"Dec 7, 2023",New England Patriots,21,Pittsburgh Steelers,18
-"Dec 10, 2023",Tampa Bay Buccaneers,29,Atlanta Falcons,25
-"Dec 10, 2023",Detroit Lions,13,Chicago Bears,28
-"Dec 10, 2023",Indianapolis Colts,14,Cincinnati Bengals,34
-"Dec 10, 2023",Jacksonville Jaguars,27,Cleveland Browns,31
-"Dec 10, 2023",Carolina Panthers,6,New Orleans Saints,28
-"Dec 10, 2023",Houston Texans,6,New York Jets,30
-"Dec 10, 2023",Los Angeles Rams,31,Baltimore Ravens,37
-"Dec 10, 2023",Minnesota Vikings,3,Las Vegas Raiders,0
-"Dec 10, 2023",Seattle Seahawks,16,San Francisco 49ers,28
-"Dec 10, 2023",Buffalo Bills,20,Kansas City Chiefs,17
-"Dec 10, 2023",Denver Broncos,24,Los Angeles Chargers,7
-"Dec 10, 2023",Philadelphia Eagles,13,Dallas Cowboys,33
-"Dec 11, 2023",Tennessee Titans,28,Miami Dolphins,27
-"Dec 11, 2023",Green Bay Packers,22,New York Giants,24
+date,winning_team,winning_team_score,losing_team,losing_team_score,week
+"Sep 7, 2023",Detroit Lions,21,Kansas City Chiefs,20,1
+"Sep 10, 2023",Carolina Panthers,10,Atlanta Falcons,24,1
+"Sep 10, 2023",Cincinnati Bengals,3,Cleveland Browns,24,1
+"Sep 10, 2023",Jacksonville Jaguars,31,Indianapolis Colts,21,1
+"Sep 10, 2023",Tampa Bay Buccaneers,20,Minnesota Vikings,17,1
+"Sep 10, 2023",Tennessee Titans,15,New Orleans Saints,16,1
+"Sep 10, 2023",San Francisco 49ers,30,Pittsburgh Steelers,7,1
+"Sep 10, 2023",Houston Texans,9,Baltimore Ravens,25,1
+"Sep 10, 2023",Arizona Cardinals,16,Washington Commanders,20,1
+"Sep 10, 2023",Green Bay Packers,38,Chicago Bears,20,1
+"Sep 10, 2023",Las Vegas Raiders,17,Denver Broncos,16,1
+"Sep 10, 2023",Philadelphia Eagles,25,New England Patriots,20,1
+"Sep 10, 2023",Miami Dolphins,36,Los Angeles Chargers,34,1
+"Sep 10, 2023",Los Angeles Rams,30,Seattle Seahawks,13,1
+"Sep 10, 2023",Dallas Cowboys,40,New York Giants,0,1
+"Sep 11, 2023",Buffalo Bills,16,New York Jets,22,1
+"Oct 12, 2023",Denver Broncos,8,Kansas City Chiefs,19,6
+"Oct 15, 2023",Baltimore Ravens,24,Tennessee Titans,16,6
+"Oct 15, 2023",Washington Commanders,24,Atlanta Falcons,16,6
+"Oct 15, 2023",Minnesota Vikings,19,Chicago Bears,13,6
+"Oct 15, 2023",Seattle Seahawks,13,Cincinnati Bengals,17,6
+"Oct 15, 2023",San Francisco 49ers,17,Cleveland Browns,19,6
+"Oct 15, 2023",New Orleans Saints,13,Houston Texans,20,6
+"Oct 15, 2023",Indianapolis Colts,20,Jacksonville Jaguars,37,6
+"Sep 14, 2023",Minnesota Vikings,28,Philadelphia Eagles,34,2
+"Sep 17, 2023",Green Bay Packers,24,Atlanta Falcons,25,2
+"Sep 17, 2023",Las Vegas Raiders,10,Buffalo Bills,38,2
+"Oct 15, 2023",Carolina Panthers,21,Miami Dolphins,42,6
+"Oct 15, 2023",New England Patriots,17,Las Vegas Raiders,21,6
+"Oct 15, 2023",Philadelphia Eagles,14,New York Jets,20,6
+"Oct 15, 2023",Arizona Cardinals,9,Los Angeles Rams,26,6
+"Sep 17, 2023",Baltimore Ravens,27,Cincinnati Bengals,24,2
+"Sep 17, 2023",Seattle Seahawks,37,Detroit Lions,31,2
+"Sep 17, 2023",Indianapolis Colts,31,Houston Texans,20,2
+"Sep 17, 2023",Kansas City Chiefs,17,Jacksonville Jaguars,9,2
+"Oct 15, 2023",Detroit Lions,20,Tampa Bay Buccaneers,6,6
+"Oct 15, 2023",New York Giants,9,Buffalo Bills,14,6
+"Oct 16, 2023",Dallas Cowboys,20,Los Angeles Chargers,17,6
+,,,,,6
+"Sep 17, 2023",Los Angeles Chargers,24,Tennessee Titans,27,2
+"Sep 17, 2023",Chicago Bears,17,Tampa Bay Buccaneers,27,2
+"Sep 17, 2023",New York Giants,31,Arizona Cardinals,28,2
+"Sep 17, 2023",San Francisco 49ers,30,Los Angeles Rams,23,2
+"Sep 17, 2023",New York Jets,10,Dallas Cowboys,30,2
+"Sep 17, 2023",Washington Commanders,35,Denver Broncos,33,2
+"Sep 17, 2023",Miami Dolphins,24,New England Patriots,17,2
+"Sep 18, 2023",New Orleans Saints,20,Carolina Panthers,17,2
+"Oct 5, 2023",Chicago Bears,40,Washington Commanders,20,5
+"Oct 8, 2023",Jacksonville Jaguars,25,Buffalo Bills,20,5
+"Oct 8, 2023",Houston Texans,19,Atlanta Falcons,21,5
+"Oct 8, 2023",Tennessee Titans,16,Indianapolis Colts,23,5
+"Sep 21, 2023",New York Giants,12,San Francisco 49ers,30,3
+"Sep 24, 2023",Tennessee Titans,3,Cleveland Browns,27,3
+"Sep 24, 2023",Atlanta Falcons,6,Detroit Lions,20,3
+"Nov 2, 2023",Tennessee Titans,16,Pittsburgh Steelers,20,9
+"Nov 5, 2023",Miami Dolphins,14,Kansas City Chiefs,21,9
+"Nov 5, 2023",Minnesota Vikings,31,Atlanta Falcons,28,9
+"Sep 18, 2023",Cleveland Browns,22,Pittsburgh Steelers,26,2
+"Oct 8, 2023",Carolina Panthers,24,Detroit Lions,42,5
+"Oct 8, 2023",New York Giants,16,Miami Dolphins,31,5
+"Oct 8, 2023",New Orleans Saints,34,New England Patriots,0,5
+"Oct 8, 2023",Baltimore Ravens,10,Pittsburgh Steelers,17,5
+"Sep 24, 2023",New Orleans Saints,17,Green Bay Packers,18,3
+"Sep 24, 2023",Houston Texans,37,Jacksonville Jaguars,17,3
+"Sep 24, 2023",Denver Broncos,20,Miami Dolphins,70,3
+"Sep 24, 2023",Los Angeles Chargers,28,Minnesota Vikings,24,3
+"Nov 5, 2023",Arizona Cardinals,0,Cleveland Browns,27,9
+"Nov 5, 2023",Los Angeles Rams,3,Green Bay Packers,20,9
+"Nov 5, 2023",Tampa Bay Buccaneers,37,Houston Texans,39,9
+"Nov 5, 2023",Chicago Bears,17,New Orleans Saints,24,9
+"Oct 8, 2023",Cincinnati Bengals,34,Arizona Cardinals,20,5
+"Oct 8, 2023",Philadelphia Eagles,23,Los Angeles Rams,14,5
+"Oct 8, 2023",New York Jets,31,Denver Broncos,21,5
+"Oct 8, 2023",Kansas City Chiefs,27,Minnesota Vikings,20,5
+"Sep 24, 2023",New England Patriots,15,New York Jets,10,3
+"Sep 24, 2023",Indianapolis Colts,22,Baltimore Ravens,19,3
+"Sep 24, 2023",Buffalo Bills,37,Washington Commanders,3,3
+"Sep 24, 2023",Carolina Panthers,27,Seattle Seahawks,37,3
+"Nov 5, 2023",Washington Commanders,20,New England Patriots,17,9
+"Nov 5, 2023",Seattle Seahawks,3,Baltimore Ravens,37,9
+"Nov 5, 2023",Indianapolis Colts,27,Carolina Panthers,13,9
+"Nov 5, 2023",Dallas Cowboys,23,Philadelphia Eagles,28,9
+"Oct 8, 2023",Dallas Cowboys,10,San Francisco 49ers,42,5
+"Oct 9, 2023",Green Bay Packers,13,Las Vegas Raiders,17,5
+,,,,,5
+,,,,,5
+"Sep 24, 2023",Dallas Cowboys,16,Arizona Cardinals,28,3
+"Sep 24, 2023",Chicago Bears,10,Kansas City Chiefs,41,3
+"Sep 24, 2023",Pittsburgh Steelers,23,Las Vegas Raiders,18,3
+"Sep 25, 2023",Philadelphia Eagles,25,Tampa Bay Buccaneers,11,3
+"Nov 5, 2023",New York Giants,6,Las Vegas Raiders,30,9
+"Nov 5, 2023",Buffalo Bills,18,Cincinnati Bengals,24,9
+"Nov 6, 2023",Los Angeles Chargers,27,New York Jets,6,9
+,,,,,9
+"Sep 25, 2023",Los Angeles Rams,16,Cincinnati Bengals,19,3
+,,,,,9
+"Sep 28, 2023",Detroit Lions,34,Green Bay Packers,20,4
+"Oct 1, 2023",Atlanta Falcons,7,Jacksonville Jaguars,23,4
+"Oct 1, 2023",Miami Dolphins,20,Buffalo Bills,48,4
+"Nov 23, 2023",Green Bay Packers,29,Detroit Lions,22,12
+"Nov 23, 2023",Washington Commanders,10,Dallas Cowboys,45,12
+"Nov 23, 2023",San Francisco 49ers,31,Seattle Seahawks,13,12
+"Oct 1, 2023",Minnesota Vikings,21,Carolina Panthers,13,4
+"Oct 1, 2023",Denver Broncos,31,Chicago Bears,28,4
+"Oct 1, 2023",Baltimore Ravens,28,Cleveland Browns,3,4
+"Oct 1, 2023",Los Angeles Rams,29,Indianapolis Colts,23,4
+"Nov 24, 2023",Miami Dolphins,34,New York Jets,13,12
+"Nov 26, 2023",New Orleans Saints,15,Atlanta Falcons,24,12
+"Nov 26, 2023",Pittsburgh Steelers,16,Cincinnati Bengals,10,12
+"Nov 26, 2023",Tampa Bay Buccaneers,20,Indianapolis Colts,27,12
+"Oct 1, 2023",Pittsburgh Steelers,6,Houston Texans,30,4
+"Oct 1, 2023",Tampa Bay Buccaneers,26,New Orleans Saints,9,4
+"Oct 1, 2023",Cincinnati Bengals,3,Tennessee Titans,27,4
+"Oct 1, 2023",Washington Commanders,31,Philadelphia Eagles,34,4
+"Nov 26, 2023",Jacksonville Jaguars,24,Houston Texans,21,12
+"Nov 26, 2023",New England Patriots,7,New York Giants,10,12
+"Nov 26, 2023",Carolina Panthers,10,Tennessee Titans,17,12
+"Nov 26, 2023",Los Angeles Rams,37,Arizona Cardinals,14,12
+"Oct 1, 2023",Las Vegas Raiders,17,Los Angeles Chargers,24,4
+"Oct 1, 2023",New England Patriots,3,Dallas Cowboys,38,4
+"Oct 1, 2023",Arizona Cardinals,16,San Francisco 49ers,35,4
+"Oct 1, 2023",Kansas City Chiefs,23,New York Jets,20,4
+"Nov 26, 2023",Cleveland Browns,12,Denver Broncos,29,12
+"Nov 26, 2023",Buffalo Bills,34,Philadelphia Eagles,37,12
+"Nov 26, 2023",Kansas City Chiefs,31,Las Vegas Raiders,17,12
+"Nov 26, 2023",Baltimore Ravens,20,Los Angeles Chargers,10,12
+"Nov 16, 2023",Cincinnati Bengals,20,Baltimore Ravens,34,11
+"Nov 19, 2023",Dallas Cowboys,33,Carolina Panthers,10,11
+"Nov 19, 2023",Pittsburgh Steelers,10,Cleveland Browns,13,11
+"Nov 19, 2023",Chicago Bears,26,Detroit Lions,31,11
+"Oct 2, 2023",Seattle Seahawks,24,New York Giants,3,4
+"Nov 27, 2023",Chicago Bears,12,Minnesota Vikings,10,12
+"Nov 19, 2023",Los Angeles Chargers,20,Green Bay Packers,23,11
+"Nov 19, 2023",Arizona Cardinals,16,Houston Texans,21,11
+"Nov 19, 2023",Tennessee Titans,14,Jacksonville Jaguars,34,11
+"Nov 19, 2023",Las Vegas Raiders,13,Miami Dolphins,20,11
+"Nov 9, 2023",Carolina Panthers,13,Chicago Bears,16,10
+"Nov 12, 2023",Indianapolis Colts,10,New England Patriots,6,10
+"Nov 12, 2023",Houston Texans,30,Cincinnati Bengals,27,10
+"Nov 19, 2023",New York Giants,31,Washington Commanders,19,11
+"Nov 19, 2023",Tampa Bay Buccaneers,14,San Francisco 49ers,27,11
+"Nov 19, 2023",New York Jets,6,Buffalo Bills,32,11
+"Nov 19, 2023",Seattle Seahawks,16,Los Angeles Rams,17,11
+"Nov 12, 2023",San Francisco 49ers,34,Jacksonville Jaguars,3,10
+"Nov 12, 2023",New Orleans Saints,19,Minnesota Vikings,27,10
+"Nov 12, 2023",Green Bay Packers,19,Pittsburgh Steelers,23,10
+"Nov 12, 2023",Cleveland Browns,33,Baltimore Ravens,31,10
+"Nov 30, 2023",Seattle Seahawks,35,Dallas Cowboys,41,13
+"Dec 3, 2023",Denver Broncos,17,Houston Texans,22,13
+"Dec 3, 2023",Detroit Lions,33,New Orleans Saints,28,13
+"Nov 19, 2023",Minnesota Vikings,20,Denver Broncos,21,11
+"Nov 20, 2023",Philadelphia Eagles,21,Kansas City Chiefs,17,11
+,,,,,11
+,,,,,11
+"Nov 12, 2023",Tennessee Titans,6,Tampa Bay Buccaneers,20,10
+"Nov 12, 2023",Atlanta Falcons,23,Arizona Cardinals,25,10
+"Nov 12, 2023",Detroit Lions,41,Los Angeles Chargers,38,10
+"Nov 12, 2023",New York Giants,17,Dallas Cowboys,49,10
+"Dec 3, 2023",Los Angeles Chargers,6,New England Patriots,0,13
+"Dec 3, 2023",Atlanta Falcons,13,New York Jets,8,13
+"Dec 3, 2023",Indianapolis Colts,31,Tennessee Titans,28,13
+"Dec 3, 2023",Arizona Cardinals,24,Pittsburgh Steelers,10,13
+"Dec 7, 2023",New England Patriots,21,Pittsburgh Steelers,18,14
+"Dec 10, 2023",Tampa Bay Buccaneers,29,Atlanta Falcons,25,14
+"Dec 10, 2023",Detroit Lions,13,Chicago Bears,28,14
+"Nov 12, 2023",Washington Commanders,26,Seattle Seahawks,29,10
+"Nov 12, 2023",New York Jets,12,Las Vegas Raiders,16,10
+"Nov 13, 2023",Denver Broncos,24,Buffalo Bills,22,10
+,,,,,10
+"Dec 3, 2023",Miami Dolphins,45,Washington Commanders,15,13
+"Dec 3, 2023",Carolina Panthers,18,Tampa Bay Buccaneers,21,13
+"Dec 3, 2023",San Francisco 49ers,42,Philadelphia Eagles,19,13
+"Dec 3, 2023",Cleveland Browns,19,Los Angeles Rams,36,13
+"Dec 10, 2023",Indianapolis Colts,14,Cincinnati Bengals,34,14
+"Dec 10, 2023",Jacksonville Jaguars,27,Cleveland Browns,31,14
+"Dec 10, 2023",Carolina Panthers,6,New Orleans Saints,28,14
+"Dec 10, 2023",Houston Texans,6,New York Jets,30,14
+,,,,,10
+"Dec 3, 2023",Kansas City Chiefs,19,Green Bay Packers,27,13
+"Dec 4, 2023",Cincinnati Bengals,34,Jacksonville Jaguars,31,13
+,,,,,13
+,,,,,13
+"Dec 10, 2023",Los Angeles Rams,31,Baltimore Ravens,37,14
+"Dec 10, 2023",Minnesota Vikings,3,Las Vegas Raiders,0,14
+"Dec 10, 2023",Seattle Seahawks,16,San Francisco 49ers,28,14
+"Dec 10, 2023",Buffalo Bills,20,Kansas City Chiefs,17,14
+,,,,,13
+"Dec 10, 2023",Denver Broncos,24,Los Angeles Chargers,7,14
+"Dec 10, 2023",Philadelphia Eagles,13,Dallas Cowboys,33,14
+"Dec 11, 2023",Tennessee Titans,28,Miami Dolphins,27,14
+"Dec 11, 2023",Green Bay Packers,22,New York Giants,24,14
+,,,,,14
+Thursday,New York Jets,,Cleveland Browns,,17
+Saturday,Detroit Lions,,Dallas Cowboys,,17
+Sunday,New England Patriots,,Buffalo Bills,,17
+Sunday,Atlanta Falcons,,Chicago Bears,,17
+Thursday,Los Angeles Chargers,,Las Vegas Raiders,,15
+Sunday,Atlanta Falcons,,Carolina Panthers,,15
+Sunday,Minnesota Vikings,,Cincinnati Bengals,,15
+Sunday,Chicago Bears,,Cleveland Browns,,15
+Thursday,New Orleans Saints,,Los Angeles Rams,,16
+Saturday,Cincinnati Bengals,,Pittsburgh Steelers,,16
+Saturday,Buffalo Bills,,Los Angeles Chargers,,16
+Sunday,Indianapolis Colts,,Atlanta Falcons,,16
+Sunday,Las Vegas Raiders,,Indianapolis Colts,,17
+Sunday,Tennessee Titans,,Houston Texans,,17
+Sunday,Carolina Panthers,,Jacksonville Jaguars,,17
+Sunday,Los Angeles Rams,,New York Giants,,17
+Sunday,Arizona Cardinals,,Philadelphia Eagles,,17
+Sunday,Pittsburgh Steelers,,Indianapolis Colts,,15
+Sunday,Denver Broncos,,Detroit Lions,,15
+Sunday,Tampa Bay Buccaneers,,Green Bay Packers,,15
+Sunday,New York Jets,,Miami Dolphins,,15
+Sunday,New York Giants,,New Orleans Saints,,15
+Sunday,Green Bay Packers,,Carolina Panthers,,16
+Sunday,Cleveland Browns,,Houston Texans,,16
+Sunday,Detroit Lions,,Minnesota Vikings,,16
+Sunday,Washington Commanders,,New York Jets,,16
+Sunday,Seattle Seahawks,,Tennessee Titans,,16
+Sunday,Miami Dolphins,,Baltimore Ravens,,17
+Sunday,New Orleans Saints,,Tampa Bay Buccaneers,,17
+Sunday,San Francisco 49ers,,Washington Commanders,,17
+Sunday,Pittsburgh Steelers,,Seattle Seahawks,,17
+Sunday,Los Angeles Chargers,,Denver Broncos,,17
+Sunday,Kansas City Chiefs,,New England Patriots,,15
+Sunday,Houston Texans,,Tennessee Titans,,15
+Sunday,San Francisco 49ers,,Arizona Cardinals,,15
+Sunday,Washington Commanders,,Los Angeles Rams,,15
+Sunday,Dallas Cowboys,,Buffalo Bills,,15
+Sunday,Jacksonville Jaguars,,Tampa Bay Buccaneers,,16
+Sunday,Arizona Cardinals,,Chicago Bears,,16
+Sunday,Dallas Cowboys,,Miami Dolphins,,16
+Sunday,New England Patriots,,Denver Broncos,,16
+Monday,Las Vegas Raiders,,Kansas City Chiefs,,16
+Sunday,Cincinnati Bengals,,Kansas City Chiefs,,17
+Sunday,Green Bay Packers,,Minnesota Vikings,,17
+Sunday,Baltimore Ravens,,Jacksonville Jaguars,,15
+Monday,Philadelphia Eagles,,Seattle Seahawks,,15
+Monday,New York Giants,,Philadelphia Eagles,,16
+Monday,Baltimore Ravens,,San Francisco 49ers,,16
+Sunday,Tampa Bay Buccaneers,,Carolina Panthers,,18
+Sunday,Cleveland Browns,,Cincinnati Bengals,,18
+Sunday,Houston Texans,,Indianapolis Colts,,18
+Sunday,Seattle Seahawks,,Arizona Cardinals,,18
+Sunday,Minnesota Vikings,,Detroit Lions,,18
+Sunday,Chicago Bears,,Green Bay Packers,,18
+Sunday,Buffalo Bills,,Miami Dolphins,,18
+Sunday,Atlanta Falcons,,New Orleans Saints,,18
+Sunday,New York Jets,,New England Patriots,,18
+Sunday,Philadelphia Eagles,,New York Giants,,18
+Sunday,Jacksonville Jaguars,,Tennessee Titans,,18
+Sunday,Denver Broncos,,Las Vegas Raiders,,18
+Sunday,Pittsburgh Steelers,,Baltimore Ravens,,18
+Sunday,Kansas City Chiefs,,Los Angeles Chargers,,18
+Sunday,Los Angeles Rams,,San Francisco 49ers,,18
+Sunday,Dallas Cowboys,,Washington Commanders,,18
+"Oct 26, 2023",Tampa Bay Buccaneers,18,Buffalo Bills,24,8
+"Oct 29, 2023",Houston Texans,13,Carolina Panthers,15,8
+"Oct 29, 2023",New Orleans Saints,38,Indianapolis Colts,27,8
+"Oct 29, 2023",Los Angeles Rams,20,Dallas Cowboys,43,8
+"Oct 29, 2023",Minnesota Vikings,24,Green Bay Packers,10,8
+"Oct 29, 2023",New England Patriots,17,Miami Dolphins,31,8
+"Oct 29, 2023",New York Jets,13,New York Giants,10,8
+"Oct 29, 2023",Atlanta Falcons,23,Tennessee Titans,28,8
+"Oct 29, 2023",Jacksonville Jaguars,20,Pittsburgh Steelers,10,8
+"Oct 29, 2023",Philadelphia Eagles,38,Washington Commanders,31,8
+"Oct 29, 2023",Cleveland Browns,20,Seattle Seahawks,24,8
+"Oct 29, 2023",Baltimore Ravens,31,Arizona Cardinals,24,8
+"Oct 29, 2023",Kansas City Chiefs,9,Denver Broncos,24,8
+"Oct 19, 2023",Jacksonville Jaguars,31,New Orleans Saints,24,7
+"Oct 22, 2023",Las Vegas Raiders,12,Chicago Bears,30,7
+"Oct 22, 2023",Cleveland Browns,39,Indianapolis Colts,38,7
+"Oct 29, 2023",Cincinnati Bengals,31,San Francisco 49ers,17,8
+"Oct 29, 2023",Chicago Bears,13,Los Angeles Chargers,30,8
+"Oct 30, 2023",Las Vegas Raiders,14,Detroit Lions,26,8
+"Oct 22, 2023",Buffalo Bills,25,New England Patriots,29,7
+"Oct 22, 2023",Washington Commanders,7,New York Giants,14,7
+"Oct 22, 2023",Detroit Lions,6,Baltimore Ravens,38,7
+"Oct 22, 2023",Atlanta Falcons,16,Tampa Bay Buccaneers,13,7
+"Oct 22, 2023",Pittsburgh Steelers,24,Los Angeles Rams,17,7
+"Oct 22, 2023",Arizona Cardinals,10,Seattle Seahawks,20,7
+"Oct 22, 2023",Green Bay Packers,17,Denver Broncos,19,7
+"Oct 22, 2023",Los Angeles Chargers,17,Kansas City Chiefs,31,7
+"Oct 22, 2023",Miami Dolphins,17,Philadelphia Eagles,31,7
+"Oct 23, 2023",San Francisco 49ers,17,Minnesota Vikings,22,7
+,,,,,7
+,,,,,7
+,,,,,7
