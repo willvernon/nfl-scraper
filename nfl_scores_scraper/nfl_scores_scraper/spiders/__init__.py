@@ -4,12 +4,14 @@ import scrapy
 class NFLScores(scrapy.Spider):
     name = "nfl_scores"
     start_urls = ["https://www.pro-football-reference.com/"]
-
+    custom_settings = {
+        'FEED_EXPORT_FIELDS': ["date", "winning_team", "winning_team_score", "losing_team", "losing_team_score"],
+    }
     def parse(self, response):
         game = 1
         while game <= 15:
             date = response.xpath(
-                f'//*[@id="scores"]/div[2]/div[{game}]/table[1]/tbody/tr[1]/td'
+                f'//*[@id="scores"]/div[2]/div[{game}]/table[1]/tbody/tr[1]/td/text()'
             ).extract_first()
             winning_team = response.xpath(
                 f'//*[@id="scores"]/div[2]/div[{game}]/table[1]/tbody/tr[2]/td[1]/a/text()'
