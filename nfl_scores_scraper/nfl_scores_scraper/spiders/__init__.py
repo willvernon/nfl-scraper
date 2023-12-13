@@ -4,9 +4,9 @@ import scrapy
 class NFLScores(scrapy.Spider):
     name = "nfl_scores"
     start_urls = [
-        #  "https://www.pro-football-reference.com/years/2023/week_1.htm",
-        # "https://www.pro-football-reference.com/years/2023/week_2.htm",
-        # "https://www.pro-football-reference.com/years/2023/week_3.htm",
+        #"https://www.pro-football-reference.com/years/2023/week_1.htm",
+         #"https://www.pro-football-reference.com/years/2023/week_2.htm",
+        #  "https://www.pro-football-reference.com/years/2023/week_3.htm",
         # "https://www.pro-football-reference.com/years/2023/week_4.htm",
         # "https://www.pro-football-reference.com/years/2023/week_5.htm",
         # "https://www.pro-football-reference.com/years/2023/week_6.htm",
@@ -20,17 +20,17 @@ class NFLScores(scrapy.Spider):
         # "https://www.pro-football-reference.com/years/2023/week_14.htm",
         # "https://www.pro-football-reference.com/years/2023/week_15.htm",
         # "https://www.pro-football-reference.com/years/2023/week_16.htm",
-        # "https://www.pro-football-reference.com/years/2023/week_17.htm",
+        "https://www.pro-football-reference.com/years/2023/week_17.htm",
         # "https://www.pro-football-reference.com/years/2023/week_18.htm",
     ]
     custom_settings = {
         "FEED_EXPORT_FIELDS": [
             "date",
+            "week",
             "winning_team",
             "winning_team_score",
             "losing_team",
             "losing_team_score",
-            "week",  # new field
         ],
     }
 
@@ -57,11 +57,11 @@ class NFLScores(scrapy.Spider):
             ).extract_first()
             yield {
                 "date": date,
+                "week": week,
                 "winning_team": winning_team,
                 "winning_team_score": winning_team_score,
                 "losing_team": losing_team,
                 "losing_team_score": losing_team_score,
-                "week": week,
             }
             game += 1
 
