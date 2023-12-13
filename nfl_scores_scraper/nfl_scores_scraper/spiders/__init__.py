@@ -6,16 +6,31 @@ class NFLScores(scrapy.Spider):
     start_urls = ["https://www.pro-football-reference.com/"]
 
     def parse(self, response):
-        winning_team = response.xpath(
-            '//*[@id="scores"]/div[2]/div[1]/table[1]/tbody/tr[2]/td[1]/a/text()'
-        ).extract_first()
-        losing_team = response.xpath(
-            '//*[@id="scores"]/div[2]/div[1]/table[1]/tbody/tr[3]/td[1]/a/text()'
-        ).extract_first()
-        yield {
-            "winning_team": winning_team,
-            "losing_team": losing_team,
-        }
+        game = 1
+        while game <= 15:
+            date = response.xpath(
+                f'//*[@id="scores"]/div[2]/div[{game}]/table[1]/tbody/tr[1]/td'
+            ).extract_first()
+            winning_team = response.xpath(
+                f'//*[@id="scores"]/div[2]/div[{game}]/table[1]/tbody/tr[2]/td[1]/a/text()'
+            ).extract_first()
+            winning_team_score = response.xpath(
+                f'//*[@id="scores"]/div[2]/div[{game}]/table[1]/tbody/tr[2]/td[2]/text()'
+            ).extract_first()
+            losing_team = response.xpath(
+                f'//*[@id="scores"]/div[2]/div[{game}]/table[1]/tbody/tr[3]/td[1]/a/text()'
+            ).extract_first()
+            losing_team_score = response.xpath(
+                f'//*[@id="scores"]/div[2]/div[{game}]/table[1]/tbody/tr[3]/td[2]/text()'
+            ).extract_first()
+            yield {
+                "date": date,
+                "winning_team": winning_team,
+                "winning_team_score": winning_team_score,
+                "losing_team": losing_team,
+                "losing_team_score": losing_team_score,
+            }
+            game += 1
 
     # def parse(self, response):
     #     # Extract data from the response
